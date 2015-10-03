@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98F1937E180B991500C10A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F1937D180B991500C10A4F /* Foundation.framework */; };
-		98F19381180B991500C10A4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F19380180B991500C10A4F /* main.m */; };
+		98F19381180B991500C10A4F /* Football in Sources */ = {isa = PBXBuildFile; fileRef = 98F19380180B991500C10A4F /* Football */; };
 		98F19385180B991500C10A4F /* Football_App.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98F19384180B991500C10A4F /* Football_App.1 */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		98F1937A180B991500C10A4F /* Football App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Football App"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F1937D180B991500C10A4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		98F19380180B991500C10A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98F19380180B991500C10A4F /* Football */ = {isa = PBXFileReference; lastKnownFileType = text; path = Football; sourceTree = "<group>"; };
 		98F19383180B991500C10A4F /* Football App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Football App-Prefix.pch"; sourceTree = "<group>"; };
 		98F19384180B991500C10A4F /* Football_App.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Football_App.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 		98F1937F180B991500C10A4F /* Football App */ = {
 			isa = PBXGroup;
 			children = (
-				98F19380180B991500C10A4F /* main.m */,
+				98F19380180B991500C10A4F /* Football */,
 				98F19384180B991500C10A4F /* Football_App.1 */,
 				98F19382180B991500C10A4F /* Supporting Files */,
 			);
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F19381180B991500C10A4F /* main.m in Sources */,
+				98F19381180B991500C10A4F /* Football in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
